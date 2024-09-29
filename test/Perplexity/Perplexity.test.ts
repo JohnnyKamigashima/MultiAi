@@ -12,7 +12,7 @@ const PerplexityOptions: PerplexityOptionsDTO = {
 }
 describe('Teste o acesso ao endpoint da Perplexity AI.', () => {
 
-    it('Testa o chat da OpenAI.', async () => {
+    it('Testa o chat da Perplexity.', async () => {
         const chatResponse = await Perplexity.chat(PerplexityOptions)
         console.log(chatResponse)
         expect(chatResponse).not.toBeUndefined()
