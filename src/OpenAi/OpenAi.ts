@@ -29,12 +29,4 @@ export class OpenAi {
         return dados.choices[0].message.content
     }
 
-    //     // Exemplo de uso
-    //     const args = process.argv.slice(2)
-    //     const prompt = args[0]
-
-    //     obterRespostaGPT4o(prompt)
-    //     .then(resposta => console.log(resposta))
-    //     .catch (error => console.error(error))
-
 }
